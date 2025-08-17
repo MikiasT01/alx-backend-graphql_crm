@@ -37,8 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'crm'
-    'graphene_django'
+    'crm',
+    'graphene_django',
+    'django_filters',
 ]
 GRAPHENE = {
     'SCHEMA': 'alx-backend-graphql_crm.schema.schema'  # Point to schema file
