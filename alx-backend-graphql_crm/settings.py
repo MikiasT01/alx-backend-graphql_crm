@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'graphene_django'
 ]
 GRAPHENE = {
-    'SCHEMA': 'alx_backend_graphql_crm.schema.schema'  # Point to schema file
+    'SCHEMA': 'alx-backend-graphql_crm.schema.schema'  # Point to schema file
 }
 
 MIDDLEWARE = [
